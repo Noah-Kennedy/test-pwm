@@ -12,4 +12,4 @@ cross build --release --target=${CROSS_COMPILER_TOOLCHAIN}
 
 # Copy the code to the home folder of the msoermc user on the other device.
 # scp {src} {dest}
-sudo scp ./target/${CROSS_COMPILER_TOOLCHAIN}/release/rmc-beaglebone-core-2018-2019 ${REMOTE_USER}@192.168.7.2:/home/${REMOTE_USER}/
+sudo scp ./target/${CROSS_COMPILER_TOOLCHAIN}/release/test-pwm ${REMOTE_USER}@192.168.7.2:/home/${REMOTE_USER}/
