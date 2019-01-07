@@ -9,6 +9,8 @@ use sysfs_pwm::{Pwm, Result};
 // PIN: EHRPWM2B (P8_13)
 const BB_PWM_CHIP: u32 = 6;
 const BB_PWM_NUMBER: u32 = 1;
+
+// Duration: 1 second
 const DUR: u64 = 1;
 
 /// Make an LED "breathe" by increasing and
