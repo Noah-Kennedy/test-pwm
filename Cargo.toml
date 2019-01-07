@@ -1,0 +1,8 @@
+[package]
+name = "test-pwm"
+version = "0.1.0"
+authors = ["noah"]
+edition = "2018"
+
+[dependencies]
+sysfs-pwm = ""
